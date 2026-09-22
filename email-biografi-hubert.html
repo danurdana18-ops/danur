@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Biografi Hubert</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 28px 12px;
+      color: #17243b;
+      background: #eef3f5;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .email-frame {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #d9e2e7;
+      border-radius: 8px;
+      box-shadow: 0 16px 38px rgba(23, 36, 59, 0.1);
+    }
+
+    .mail-header {
+      padding: 24px 30px;
+      color: #ffffff;
+      background: #10243e;
+    }
+
+    .mail-label {
+      margin: 0 0 16px;
+      color: #58c2c1;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .mail-row {
+      margin: 5px 0;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .mail-row strong { color: #ffffff; }
+
+    .hero {
+      padding: 34px 30px 28px;
+      background: #f4f9f8;
+      border-bottom: 1px solid #d9e2e7;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 180px;
+      object-fit: cover;
+      object-position: center top;
+      filter: brightness(1.1) contrast(0.96) saturate(0.9);
+      border: 6px solid #ffffff;
+      box-shadow: 8px 8px 0 #f4c95d;
+    }
+
+    h1 {
+      margin: 26px 0 8px;
+      color: #10243e;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 38px;
+      font-weight: 400;
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #647487;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .message {
+      padding: 30px;
+    }
+
+    .greeting,
+    .closing {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .greeting { margin-bottom: 14px; }
+    .closing { margin-top: 26px; }
+
+    .intro {
+      margin: 0 0 24px;
+      color: #526277;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #d9e2e7;
+    }
+
+    .info-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #d9e2e7;
+      font-size: 14px;
+      line-height: 1.55;
+      vertical-align: top;
+    }
+
+    .info-table tr:last-child td { border-bottom: 0; }
+
+    .info-table td:first-child {
+      width: 34%;
+      color: #647487;
+      background: #f7fafb;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .info-table td:last-child { color: #17243b; }
+
+    .quote {
+      display: block;
+      padding: 14px 16px;
+      color: #176b87;
+      background: #eef8f6;
+      border-left: 4px solid #58c2c1;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 22px;
+    }
+
+    .footer {
+      padding: 18px 30px;
+      color: #647487;
+      background: #f7fafb;
+      border-top: 1px solid #d9e2e7;
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    @media (max-width: 560px) {
+      body { padding: 12px 8px; }
+      .mail-header, .hero, .message { padding-left: 20px; padding-right: 20px; }
+      .footer { padding-left: 20px; padding-right: 20px; }
+      h1 { font-size: 31px; }
+      .info-table td { display: block; width: auto !important; }
+      .info-table td:first-child { padding-bottom: 5px; }
+      .info-table td:last-child { padding-top: 5px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="email-frame" role="article" aria-label="Email biografi Hubert Christia Triarta Toule">
+    <header class="mail-header">
+      <p class="mail-label">Biografi Personal</p>
+      <p class="mail-row"><strong>From:</strong> Hubert Christia Triarta Toule</p>
+      <p class="mail-row"><strong>Subject:</strong> Mengenal Hubert Christia Triarta Toule</p>
+    </header>
+
+    <section class="hero">
+      <img class="profile-photo" src="image.png" alt="Foto Hubert Christia Triarta Toule">
+      <h1>Hubert Christia<br>Triarta Toule</h1>
+      <p class="subtitle">Profil singkat seorang pelajar asal Buleleng</p>
+    </section>
+
+    <section class="message">
+      <p class="greeting">Halo,</p>
+      <p class="intro">Berikut adalah informasi singkat tentang Hubert Christia Triarta Toule, seorang pelajar yang terus belajar, berani mencoba, dan mengembangkan dirinya melalui berbagai pengalaman.</p>
+
+      <table class="info-table">
+        <tr>
+          <td>Informasi pribadi</td>
+          <td><strong>Panggilan:</strong> Hubert<br><strong>Status:</strong> Pelajar<br><strong>Asal:</strong> Buleleng</td>
+        </tr>
+        <tr>
+          <td>Pendidikan</td>
+          <td>TK Tadika Mesra<br>SMPN 6 Singaraja<br>SMA Negeri Bali Mandara</td>
+        </tr>
+        <tr>
+          <td>Ciri-ciri</td>
+          <td>Berani mencoba hal baru, punya rasa ingin tahu tinggi, kreatif dalam mencari solusi, dan terus belajar dari pengalaman.</td>
+        </tr>
+        <tr>
+          <td>Keahlian</td>
+          <td>Komunikasi dan kepemimpinan, pemecahan masalah, kerja sama tim, serta berpikir kreatif.</td>
+        </tr>
+        <tr>
+          <td>Red flag</td>
+          <td>Kadang terlalu percaya diri, suka menunda, dan perlu lebih konsisten saat menyelesaikan sesuatu.</td>
+        </tr>
+        <tr>
+          <td>Prestasi</td>
+          <td>Mengikuti perlombaan <strong>gulat</strong> dan membangun keberanian melalui pengalaman berkompetisi.</td>
+        </tr>
+        <tr>
+          <td>Motto hidup</td>
+          <td><span class="quote">“Yang penting mencoba.”</span></td>
+        </tr>
+        <tr>
+          <td>Cita-cita</td>
+          <td>Bandar narkotika</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>hubert kupenksss gnateng</td>
+        </tr>
+      </table>
+
+      <p class="closing">Salam,<br><strong>Hubert</strong></p>
+    </section>
+
+    <footer class="footer">Email biografi personal | Hubert Christia Triarta Toule</footer>
+  </main>
+</body>
+</html>
